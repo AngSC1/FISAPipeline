@@ -9,9 +9,9 @@ pool:
 
 steps:
 - task: Maven@3
-  displayName: 'Maven FISAPipeline/pom.xml'
+  displayName: 'Maven pom.xml'
   inputs:
-    mavenPomFile: 'FISAPipeline/pom.xml'
+    mavenPomFile: 'pom.xml'
     codeCoverageToolOption: Cobertura
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
